@@ -48,6 +48,10 @@ Interactive ball-by-ball statistics for IPL 2026.
 ### Calorie Tracker — AI-assisted nutrition tracking for South Asian food *(private repo)*
 A local-first calorie tracker built around Indian subcontinent cuisine, which mainstream trackers cover badly.
 
+![Daily stats — calorie ring with macro bars against goal-derived targets](calorie-tracker-stats-image.png)
+
+![Logging a meal from a photo — the model returns per-item nutrition and states its assumptions](calorie-tracker-lookup-image.png)
+
 - **Next.js 14 (App Router), React 18, TypeScript (strict), Tailwind CSS**
 - **Multimodal AI logging** — describe a meal in plain English or photograph it; `gemini-2.5-flash` returns per-item nutrition against a JSON schema, with its assumptions stated.
 - AI runs behind two server routes, so the API key never reaches the browser
