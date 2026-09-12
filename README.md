@@ -49,7 +49,7 @@ Interactive ball-by-ball statistics for IPL 2026.
 A local-first calorie tracker built around Indian subcontinent cuisine, which mainstream trackers cover badly.
 
 - **Next.js 14 (App Router), React 18, TypeScript (strict), Tailwind CSS**
-- **Multimodal AI logging** — describe a meal in plain English or photograph it; `gemini-2.5-flash` returns per-item nutrition against a JSON schema, with confidence ratings
+- **Multimodal AI logging** — describe a meal in plain English or photograph it; `gemini-2.5-flash` returns per-item nutrition against a JSON schema, with its assumptions stated.
 - AI runs behind two server routes, so the API key never reaches the browser
 - Nothing enters the log until the user confirms from a preview — the model suggests, the user decides
 - **No backend, no accounts, no cloud sync.** The log lives in `localStorage` under versioned keys; entries snapshot the food they were logged against, so catalog edits never rewrite past days
