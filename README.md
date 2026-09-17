@@ -24,7 +24,7 @@ Beyond the code: domain registration, DNS, business email setup, and a post-laun
 
 ---
 
-### [food-price-intel](https://github.com/alokday007/food-price-intel) — food price forecasting *(in progress)*
+### [food-price-intel](https://github.com/alokday007/food-price-intel) — food price forecasting *(paused)*
 A forecasting service built on the FAO Food Price Index.
 
 - **Django + PostgreSQL**, containerised, deployed on Render with a Neon database
@@ -33,7 +33,7 @@ A forecasting service built on the FAO Food Price Index.
 - SARIMA(1,1,1)(1,1,1,12) forecasts that beat a naive-1 baseline at one-month horizon
 - Forecasts persisted to their own tables, exposed over a JSON API and charted with Plotly.js
 
-Currently generalising the forecasting pipeline across all six commodity group series.
+Currently paused. The deployed app forecasts from the last ingested FAO release, so the horizon trails the present date. The next step is generalising the forecasting pipeline across all six commodity group series.
 
 ---
 
